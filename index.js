@@ -21,3 +21,7 @@ function destructivelyRemoveFirstDriver(driver) {
 function appendDriver(driver) {
   return [...drivers, "Broom"]
 }
+
+function prependDriver(driver) {
+  return ["Arnold", ...drivers];
+}
